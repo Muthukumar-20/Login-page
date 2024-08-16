@@ -1,0 +1,62 @@
+*{
+    color: white;
+}
+.back{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("img.2342.jpg");
+    height: 700px;
+    background-size: cover;
+}
+.login{ 
+    /* -filter: blur(); */
+    backdrop-filter:blur(8px); 
+border: 1px solid rgb(255, 239, 239,0.3);
+border-radius: 15px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.1);
+
+
+}
+h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+button{
+    font-size: x-large;
+    border-radius: 40px;
+    background-color: white;
+ cursor: pointer;
+ height: 40px;
+ width: 300px;
+}
+button:hover{
+    color: navy;
+    background-color: blanchedalmond;
+    opacity: 2s;
+}
+button{
+    color: black;
+    opacity: 1;
+} 
+.user,.pass{
+    border: 1px solid rgb(255 255 255 );
+   box-shadow: 0 0 1px 0 ;
+    width: 300px;
+border-radius: 30px;
+background: transparent;
+padding: 15px;
+}
+/* .login .user::placeholder,.pass::placeholder{
+ color: white;
+} */
+.login input::placeholder{
+ color: white;
+}
