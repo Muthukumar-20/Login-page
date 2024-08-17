@@ -1,13 +1,15 @@
 *{
     color: white;
 }
+body{
+    background-image:url("img.2342.jpg");
+}
 .back{
    display: flex;
     justify-content: center;
     align-items: center;
-    background-image:url("img.2342.jpg");
-    height: 700px;
     background-size: cover;
+    height: 600px;
 }
 .login{ 
     /* -filter: blur(); */
@@ -15,14 +17,13 @@
 border: 1px solid rgb(255, 239, 239,0.3);
 border-radius: 15px;
     width: 400px;
-    height: 500px;
+    height: 430px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
     box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.1);
-
 
 }
 h1{
@@ -30,21 +31,25 @@ h1{
     font-size: 40px;
 }
 button{
+    color: black;
     font-size: x-large;
     border-radius: 40px;
     background-color: white;
  cursor: pointer;
- height: 40px;
+padding: 5px;
  width: 300px;
+ border: none;
+ position: relative;
 }
 button:hover{
-    color: navy;
-    background-color: blanchedalmond;
-    opacity: 2s;
-}
-button{
-    color: black;
+    color: white;
+    background-color: navy;
+    border: none;
     opacity: 1;
+}
+button:active{
+    color: black;
+    opacity: 0.7;
 } 
 .user,.pass{
     border: 1px solid rgb(255 255 255 );
@@ -53,10 +58,40 @@ button{
 border-radius: 30px;
 background: transparent;
 padding: 15px;
+font-size: medium;
+}
+.user:hover{
+ color: black;
+}
+.user:active{
+    background-color: white;
+    
 }
 /* .login .user::placeholder,.pass::placeholder{
  color: white;
 } */
 .login input::placeholder{
  color: white;
+}
+h3{
+position: relative;
+right: 100px;
+}
+.tags{
+    position: relative;
+    bottom: 13px;
+}
+
+.dom{
+    display: flex;
+    flex-direction: row;
+}
+.rem{
+    position: relative;
+    right: 50px;
+}
+.Pass{
+    position: relative;
+    top: 4px;
+    left: 50px;
 }
